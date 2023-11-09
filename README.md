@@ -76,7 +76,7 @@ Follow the steps below to install the package. It has been assumed that the ROS 
 ```
 cd ~/catkin_ws/src
 git clone https://github.com/hasauino/rrt_exploration.git
-catkin build rrt_exploration
+catkin_make rrt_exploration
 source ~/catkin_ws/devel/setup.bash
 ```
 
